@@ -30,8 +30,8 @@ notebook, and run Jupyter.
 
 ### Data use rules
 
-- The data are **pseudonymised**: patients, courses, planners and images are labelled with codes
-  (`P0001`, `C0001`, `U01`, `IMG00001`), and institution and machines with generic names.
+- The data are **pseudonymised**: patients, courses and planners are labelled with codes
+  (`P0001`, `C0001`, `U01`), and institution and machines with generic names.
 - Use the data **only for this course**. Do not share the archive or the passkey, and do not upload
   the data to other services.
 
