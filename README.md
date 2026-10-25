@@ -1,5 +1,7 @@
 # Predicting VMAT gamma passing rates in multi-target SRS
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nlambriICH/srs-apcm-mpc/blob/main/notebooks/gpr_prediction.ipynb)
+
 A hands-on data science project with real (pseudonymised) clinical radiotherapy data.
 
 **Goal:** predict the **gamma passing rate (GPR)** of each VMAT arc from
@@ -16,8 +18,9 @@ compared with the predicted image using a gamma analysis. The GPR is the percent
 
 ## Quick start (Google Colab)
 
-1. Open [`notebooks/gpr_prediction.ipynb`](notebooks/gpr_prediction.ipynb) in Google Colab
-   (*File → Open notebook → GitHub*, or upload the file).
+1. Click the **Open in Colab** button above. It opens
+   [`notebooks/gpr_prediction.ipynb`](notebooks/gpr_prediction.ipynb) in Google Colab.
+   Use *File → Save a copy in Drive* to keep your work.
 2. Run the first cells. They download the encrypted archive `srs_gpr_data.zip` from Google Drive.
 3. Type the **passkey** you get during the lecture when the notebook asks for it.
 4. Work through the notebook sections: explore → merge → clean → analyse → model.
