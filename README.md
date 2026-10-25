@@ -112,7 +112,7 @@ Things to expect in the raw data (finding and fixing them is part of the exercis
 | `Course`, `Plan`, `PDCourse`, `PDPlan` | Verification (QA) course and plan. In this sheet `Course = PDCourse` and `Plan = PDPlan`. |
 | `PDBeam` | Arc name in the QA plan (matches `Beam`). |
 | `PDImage` | Label of the measured portal image. |
-| `PDImageUID` | Pseudonymised image identifier (`IMG00001`…). |
+| `PDImageUID` | Pseudonymised ID of the portal dosimetry measurement (`IMG00001`…). |
 | `SessionDateTime` | Date and time of the measurement session. Use it to match the MPC of the same day. |
 | `AnalysisMode` | `CU` = images in calibrated units (EPID dose calibration). |
 | `NormalizationMethod` | Image normalisation used in the analysis. |
