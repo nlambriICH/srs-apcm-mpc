@@ -1,0 +1,20 @@
+# Sensitive original data, ID mappings and passkey: never commit
+private/
+
+# Generated pseudonymised data and encrypted archive (shared via Google Drive, not git)
+release/
+*.xlsx
+*.xls
+*.zip
+
+# Local-only assistant notes
+CLAUDE.md
+.claude/
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Cleaned-data notebook: local until the instructor decides to share the cleaned dataset
+notebooks/gpr_prediction_clean.ipynb
