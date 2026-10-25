@@ -214,6 +214,7 @@ Values are deviations from the machine baseline. An empty cell means that test w
 
 ```
 README.md                         this file
+LICENSE.md                        PolyForm Noncommercial License 1.0.0
 requirements.txt                  Python packages for local use
 notebooks/gpr_prediction.ipynb    Colab notebook skeleton for students
 tools/pseudonymise.py             instructor only: builds the pseudonymised data
@@ -221,3 +222,16 @@ tools/encrypt_data.py             instructor only: encrypts data files with a pa
 ```
 
 The data are **not** stored in this repository. They are shared as an encrypted archive on Google Drive.
+
+---
+
+## License
+
+The code and documentation in this repository are licensed under the
+[PolyForm Noncommercial License 1.0.0](LICENSE.md). You may use, change and share them for
+noncommercial purposes only, such as teaching, academic research and personal study. Commercial use
+is not allowed.
+
+The license does not cover the data, which may be used only as described in [Data use rules](#data-use-rules).
+
+Required Notice: Copyright (c) 2026 Nicola Lambri
