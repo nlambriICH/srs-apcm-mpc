@@ -25,6 +25,11 @@ compared with the predicted image using a gamma analysis. The GPR is the percent
 3. Type the **passkey** you get during the lecture when the notebook asks for it.
 4. Work through the notebook sections: explore → merge → clean → analyse → model.
 
+**Cleaned dataset.** If you could not finish merging the raw tables, or want to check your own
+pipeline, open [`notebooks/gpr_prediction_clean.ipynb`](notebooks/gpr_prediction_clean.ipynb)
+([Open in Colab](https://colab.research.google.com/github/nlambriICH/srs-apcm-mpc/blob/main/notebooks/gpr_prediction_clean.ipynb)).
+It downloads the merged and cleaned dataset `srs_gpr_clean.zip`, which has its own passkey.
+
 To work locally instead: `pip install -r requirements.txt`, put `srs_gpr_data.zip` next to the
 notebook, and run Jupyter.
 
@@ -217,6 +222,7 @@ README.md                         this file
 LICENSE.md                        PolyForm Noncommercial License 1.0.0
 requirements.txt                  Python packages for local use
 notebooks/gpr_prediction.ipynb    Colab notebook skeleton for students
+notebooks/gpr_prediction_clean.ipynb  Colab notebook starting from the cleaned dataset
 tools/pseudonymise.py             instructor only: builds the pseudonymised data
 tools/encrypt_data.py             instructor only: encrypts data files with a passkey
 ```

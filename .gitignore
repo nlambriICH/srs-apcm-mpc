@@ -15,6 +15,3 @@ CLAUDE.md
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-
-# Cleaned-data notebook: local until the instructor decides to share the cleaned dataset
-notebooks/gpr_prediction_clean.ipynb
